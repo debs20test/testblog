@@ -99,7 +99,7 @@ theme = "debs20test-hugo-theme"
       weight = 1
       name = "Important Dates"
       parent = "CONFERENCE INFO"
-      url = ""
+      url = "/importantdates"
 
       [[Languages.en.menu.header]]
       weight = 2
