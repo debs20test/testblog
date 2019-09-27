@@ -14,8 +14,8 @@
               <tbody>
                 {{ range $data.importantdates.events.eventsList }}
                 <tr>
-                  <td>{{.event | markdownify}}</td>
-                  <td>{{.date | markdownify}}</td>
+                  <td style="text-align:center">{{.event | markdownify}}</td>
+                  <td style="text-align:center">{{.date | markdownify}}</td>
                 </tr>
                 {{ end }}
               </tbody>
