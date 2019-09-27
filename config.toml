@@ -117,7 +117,7 @@ theme = "debs20test-hugo-theme"
       weight = 4
       name = "Accommodation"
       parent = "CONFERENCE INFO"
-      url = ""
+      url = "/accommodation"
 
       [[Languages.en.menu.header]]
       weight = 5
