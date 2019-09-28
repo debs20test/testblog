@@ -1,0 +1,14 @@
+enable: true
+title1: General chair
+texts1:
+  - text1: Kaiwen Zhang, ÉTS
+  - text1: Khuzaima Daudjee, University of Waterloo
+  - text1: Bettina Kemme, McGill University
+
+title2: Program chair
+texts2:
+  - text2: Mohammad Sadoghi, UC Davis
+
+title3: Proceedings chair
+texts3:
+  - text3: Julien Gascon-Samson, ÉTS
