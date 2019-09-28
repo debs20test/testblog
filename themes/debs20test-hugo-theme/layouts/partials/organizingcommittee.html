@@ -7,18 +7,46 @@
       <div class="col-md-9 col-sm-6">
         <div class="block">
           <div>
-            <h1>{{ $data.organizingcommittee.title1 }}</h1><br>
-            {{ range $data.organizingcommittee.texts1 }}
-            <li align = "justify"><font size="+1">{{.text1}}</font></li>
-            {{ end }}<br>
-            <h1>{{ $data.organizingcommittee.title2 }}</h1><br>
-            {{ range $data.organizingcommittee.texts2 }}
-            <li align = "justify"><font size="+1">{{.text2}}</font></li>
-            {{ end }}<br>
-            <h1>{{ $data.organizingcommittee.title3 }}</h1><br>
-            {{ range $data.organizingcommittee.texts3 }}
-            <li align = "justify"><font size="+1">{{.text3}}</font></li>
-            {{ end }}<br>
+            <h2>{{ $data.organizingcommittee.title1 }}</h2>
+            {{ range $data.organizingcommittee.people1 }}
+            <li align = "justify">{{.person1}}</li>
+            {{ end }}
+            <h2>{{ $data.organizingcommittee.title2 }}</h2>
+            {{ range $data.organizingcommittee.people2 }}
+            <li align = "justify">{{.person2}}</li>
+            {{ end }}
+            <h2>{{ $data.organizingcommittee.title3 }}</h2>
+            {{ range $data.organizingcommittee.people3 }}
+            <li align = "justify">{{.person3}}</li>
+            {{ end }}
+            <h2>{{ $data.organizingcommittee.title4 }}</h2>
+            {{ range $data.organizingcommittee.people4 }}
+            <li align = "justify">{{.person4}}</li>
+            {{ end }}
+            <h2>{{ $data.organizingcommittee.title5 }}</h2>
+            {{ range $data.organizingcommittee.people5 }}
+            <li align = "justify">{{.person5}}</li>
+            {{ end }}
+            <h2>{{ $data.organizingcommittee.title6 }}</h2>
+            {{ range $data.organizingcommittee.people6 }}
+            <li align = "justify">{{.person6}}</li>
+            {{ end }}
+            <h2>{{ $data.organizingcommittee.title7 }}</h2>
+            {{ range $data.organizingcommittee.people7 }}
+            <li align = "justify">{{.person7}}</li>
+            {{ end }}
+            <h2>{{ $data.organizingcommittee.title8 }}</h2>
+            {{ range $data.organizingcommittee.people8 }}
+            <li align = "justify">{{.person8}}</li>
+            {{ end }}
+            <h2>{{ $data.organizingcommittee.title9 }}</h2>
+            {{ range $data.organizingcommittee.people9 }}
+            <li align = "justify">{{.person9}}</li>
+            {{ end }}
+            <h2>{{ $data.organizingcommittee.title10 }}</h2>
+            {{ range $data.organizingcommittee.people10 }}
+            <li align = "justify">{{.person10}}</li>
+            {{ end }}
           </div>
         </div>
       </div>
