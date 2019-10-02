@@ -62,6 +62,12 @@ h6 {
   font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 60px;
+}
+
 h2 {
   font-size: 30px;
   font-weight: 400;
@@ -70,6 +76,7 @@ h2 {
 h3 {
   font-size: 28px;
   font-weight: 300;
+  margin-top: 60px;
 }
 
 p {
@@ -530,14 +537,14 @@ font header .navbar-default .navbar-nav li a:hover {
 #global-header .block {
   color: #E3E3E4;
   margin: 0 auto;
-  padding-left: 90px;
+  padding-left: 80px;
   text-align: center;
 }
 
 #global-header .block h1 {
   font-weight: 100;
-  font-size: 45px;
-  letter-spacing: 6px;
+  font-size: 25px;
+  letter-spacing: 5px;
   padding-bottom: 15px;
   margin-top: 0;
   text-transform: capitalize;

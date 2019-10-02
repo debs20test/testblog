@@ -1,5 +1,8 @@
 enable: true
 title1: General chair
+
+people:
+  enable: true
 people1:
   - person1: Kaiwen Zhang, ÉTS
   - person1: Khuzaima Daudjee, University of Waterloo
