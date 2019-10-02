@@ -1,11 +1,17 @@
 enable: true
-title: Location
+title1: Location
 paragraph: >
     The ÉTS campus is located in the center of Montréal's Quartier de l'innovation (QI), and only minutes from downtown.
     The QI is an innovation ecosystem in the heart of the city, whose activities incorporate the four essential components of a
     creative society: industrial, educational/research, urbun and sociocultural. The convergence of these four axes of development
     results in a modern ecosystem that reflects the new realities and the new challenges involved in innovation at the international level.
-image: "/img/pavilion e.jpg"
+image1: "/img/pavilionE.jpg"
+image2: "/img/pavilionE1.jpg"
+
+punlic transform:
+  enable: true
+title2: Public transform form Montréal International Airport
+
 address:
   enable : false
 addresses:
