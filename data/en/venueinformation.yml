@@ -13,22 +13,19 @@ punlic transform:
 title2: Public transform form Montréal International Airport
 
 address:
-  enable : false
+  enable : true
 addresses:
-  - title : "With bus"
-    subtitle : "14TH ACM INTERNATIONAL CONFERENCE ON DISTRIBUTED AND EVENT-BASED SYSTEMS"
-    image : "/img/Montreal.jpg"
-    text : "Discover Our Projects"
-    url : "#scope"
+  - title : "Airliner bus (747)"
+    image : "/img/747bus.jpg"
+    text : "Take the AirLiner bus (747) from the YUL airport to Lionel-Groulx metro station (There are two 747 line, take the one to Lionel Groulx). From Lionel Groulx metro station take the orange line to Bonvanture metro station. Take exit Station Bonaventure - Édicule De la Cathédrale.
+    Head southeast on Rue de la Cathédrale toward Rue Saint-Antoine O. Turn right toward Rue Peel/QC-112. turn left onto Rue Peel/QC-112 and cross the road to École de technologie supérieure.
+    The ticket cost 10 CAD (7.50 USD and 6.84 Euro) for 24 hours with unlimited use. For more information about the bus schedule and fare price visit: "
+    link : "http://www.stm.info/en/info/networks/bus/shuttle/747-yul-montreal-trudeau-airport-downtown-shuttle"
+    textLink: "THE 747 SHUTTLE SERVICE."
 
-  - title : "With car"
-    subtitle : "14TH ACM INTERNATIONAL CONFERENCE ON DISTRIBUTED AND EVENT-BASED SYSTEMS"
+  - title : "Airport Taxi or Uber"
     image : "/img/Montreal.jpg"
-    text : "Discover Our Projects"
-    url : "#scope"
-
-  - title : "DEBS 2020"
-    subtitle : "14TH ACM INTERNATIONAL CONFERENCE ON DISTRIBUTED AND EVENT-BASED SYSTEMS"
-    image : "/img/Montreal.jpg"
-    text : "Discover Our Projects"
-    url : "#scope"
+    text : "You can get a taxi or limousine at the arrivals level near the central exit located in front of the cloakroom, where a dispatcher will assist you. No reservation is required. Uber is also available at the Airport.
+    you need the Uber application on your Cellphone to get the Uber taxi. For more information about the Airport taxi service and fare price visit: "
+    link : "https://www.admtl.com/en/access/taxis-limousines"
+    textLink: "THE AIRPORT TAXI SERVICE."

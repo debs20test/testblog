@@ -1,0 +1,33 @@
+{{ partial "global-header.html" . }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<section id = "accommodation">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 col-sm-6">
+        <div class="block">
+          {{ if $data.accommodation.address.enable }}
+          {{ range $data.accommodation.information }}
+          <div align="justify">
+            <h1>{{ .title }}</h1>
+          </div>
+          <div class="google-map" style="margin-bottom: 10px">
+            <iframe width="100%" height="450" src="https://maps.google.com/maps?q=alt%20hotel%20montreal&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" allowfullscreen></iframe>
+          </div>
+          <div align="justify">
+            <p>{{ .text }}</p>
+            <h3>{{ .info }}</h3>
+            <li><a href="{{ .link }}">{{ .textLink }}</a></li>
+            <li>{{ .walkingDistance }}</li>
+            <li>{{ .cost }}</li>
+            <li>{{ .telephone }}</li>
+            <li><a href="mailto:{{ .email }}">{{ .email }}</a></li>
+          </div>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
+</section>

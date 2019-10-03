@@ -1,0 +1,17 @@
+enable: true
+title: Accommodation Information
+
+address:
+  enable: true
+information:
+  - title: "Location"
+    text: "The 14th ACM International Conference on Distributed and Event-Based Systems has arranged special prices for accommodation with the Welcome Hotel."
+    link: "https://www.althotels.com/en/montreal/"
+    info: "hotel Information"
+    textLink: "Alt hotels official website"
+    googleLink: ""
+    src: "https://maps.google.com/maps?q=alt%20hotel%20montreal&t=&z=13&ie=UTF8&iwloc=&output=embed"
+    walkingDistance: "In walkind distance (550m) to the venue."
+    cost: "181 CAD (135.77 USD and 123.66 Euro) per night."
+    telephone: "1 855 258-5775"
+    email: "reservations.halifax@althotels.ca"
