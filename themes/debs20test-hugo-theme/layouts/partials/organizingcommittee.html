@@ -7,7 +7,7 @@
       {{ if $data.organizingcommittee.people.enable }}
       <div class="col-md-9 col-sm-6">
         <div class="block">
-          <div>
+          <div style="margin-bottom: 100px;">
             <h1>{{ $data.organizingcommittee.title1 }}</h1>
             {{ range $data.organizingcommittee.people1 }}
             <li align = "justify">{{.person1}}</li>
@@ -46,7 +46,7 @@
             {{ end }}
             <h1>{{ $data.organizingcommittee.title10 }}</h1>
             {{ range $data.organizingcommittee.people10 }}
-            <li align = "justify" style="margin-bottom: 100px;">{{.person10}}</li>
+            <li align = "justify">{{.person10}}</li>
             {{ end }}
           </div>
         </div>
