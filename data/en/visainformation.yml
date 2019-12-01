@@ -1,0 +1,18 @@
+enable: true
+title1: Visa Support Letter Request
+texts:
+  - text: ACM is able to provide visa support letters to attendees as well as authors with accepted papers, posters, or members of the conference committee.
+  - text: 'For visa support letters, refer all requests to <a href="mailto:supportletters@acm.org">supportletters@acm.org</a>. Please allow up to 10 business days to receive a letter. All requests are handled in the order they are received. The information below should be included with the request:'
+
+infos:
+  enable : true
+
+  infosList:
+    - info : <li>Your name as it appears on your passport</li>
+    - info : <li>Your current postal mailing address</li>
+    - info : <li>The name of the conference you are registering for</li>
+    - info : <li>Your registration confirmation number</li>
+    - info : <li>If you have any papers accepted for the conference, please provide the title and indicate whether you are the “sole author” or a “co-author”</li>
+    - info : <li>Authors may indicate their paper title. If no paper, speakers can provide the title of their presentation</li>
+
+text: ACM does not provide letters for transport of vendor or presenter equipment.  ACM suggests shipping the materials insured to the conference facility.
