@@ -1,5 +1,9 @@
 enable: true
-title1: Visa Support Letter Request
+title1: Visas for Entering Canada and Quebec
+visaInformationText: One of the first things a visitor to Quebec City should note is that Canada's entry requirements have changed slightly since March 2016. Citizens of visa-exempt countries such as the European Union states, Australia, and others are now required to apply for an Electronic Travel Authorisation (eTA) if they're arriving to Quebec City by air. For more information visit <a href="https://official-canada-eta.com/canada-eta-resources/visa-for-quebec-city-quebec/">Visa for Quebec City, Quebec, Canada</a>
+VisaExemptText: A full list of <a href="https://official-canada-eta.com/canada-eta-requirements/">visa-exempt countries can be found here</a>. Nationals of other countries will require a full visa to enter Canada by any method and for any purpose.
+
+title2: Visa Support Letter Request
 texts:
   - text: ACM is able to provide visa support letters to attendees as well as authors with accepted papers, posters, or members of the conference committee.
   - text: 'For visa support letters, refer all requests to <a href="mailto:supportletters@acm.org">supportletters@acm.org</a>. Please allow up to 10 business days to receive a letter. All requests are handled in the order they are received. The information below should be included with the request:'

@@ -10,6 +10,13 @@
             <h1>{{ $data.visainformation.title1 }}</h1>
           </div>
           <div>
+            <p align = "justify">{{ $data.visainformation.visaInformationText | markdownify}}</p>
+            <p align = "justify">{{ $data.visainformation.VisaExemptText | markdownify}}</p>
+          </div>
+          <div>
+            <h1>{{ $data.visainformation.title2 }}</h1>
+          </div>
+          <div>
             {{ range $data.visainformation.texts }}
             <p align = "justify">{{.text | markdownify}}</p>
             {{ end }}
@@ -20,7 +27,7 @@
             {{ end }}
           </div>
           <div>
-            <p>{{ $data.visainformation.text}}</p>
+            <p align = "justify">{{ $data.visainformation.text}}</p>
           </div>
         </div>
       </div>
