@@ -1,7 +1,7 @@
 enable: true
-title1: Visas for Entering Canada and Quebec
-visaInformationText: One of the first things a visitor to Quebec City should note is that Canada's entry requirements have changed slightly since March 2016. Citizens of visa-exempt countries such as the European Union states, Australia, and others are now required to apply for an Electronic Travel Authorisation (eTA) if they're arriving to Quebec City by air. For more information visit <a href="https://official-canada-eta.com/canada-eta-resources/visa-for-quebec-city-quebec/">Visa for Quebec City, Quebec, Canada</a>
-VisaExemptText: A full list of <a href="https://official-canada-eta.com/canada-eta-requirements/">visa-exempt countries can be found here</a>. Nationals of other countries will require a full visa to enter Canada by any method and for any purpose.
+title1: Electronic Travel Authorization (eTA)
+visaInformationText: The eTA is a document that allows you to travel in Canada by plane and to travel freely inside the country. It is an entry requirement for visa-exempt foreign nationals travelling to or transiting through Canada by air. Applying for an eTA is a simple online process. You should apply for an eTA before you book your flight. For more information about the process, see the <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/about.html">Electronic travel authorization (eTA)</a>.
+VisaRequirementsText: To check the entry requirements by country/territory see the following <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/entry-requirements-country.html">link</a>.
 
 title2: Visa Support Letter Request
 texts:
@@ -14,7 +14,7 @@ infos:
   infosList:
     - info : <li>Your name as it appears on your passport</li>
     - info : <li>Your current postal mailing address</li>
-    - info : <li>The name of the conference you are registering for</li>
+    - info : <li>The name of the conference you are registering for (DEBS 2020)</li>
     - info : <li>Your registration confirmation number</li>
     - info : <li>If you have any papers accepted for the conference, please provide the title and indicate whether you are the “sole author” or a “co-author”</li>
     - info : <li>Authors may indicate their paper title. If no paper, speakers can provide the title of their presentation</li>
