@@ -69,12 +69,18 @@ theme = "debs20test-hugo-theme"
 
       [[Languages.en.menu.header]]
       weight = 3
+      name = "Call for Grand Challenge Solutions"
+      parent = "CALLS"
+      url = "/callforgrandchallengesolutions"
+
+      [[Languages.en.menu.header]]
+      weight = 4
       name = "Call for Posters and Demos"
       parent = "CALLS"
       url = ""
 
       [[Languages.en.menu.header]]
-      weight = 4
+      weight = 5
       name = "Call for Doctoral Symposium"
       parent = "CALLS"
       url = ""
