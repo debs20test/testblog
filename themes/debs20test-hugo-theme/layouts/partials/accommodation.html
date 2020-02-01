@@ -6,18 +6,12 @@
     <div class="row">
       <div class="col-md-9 col-sm-6">
         <div class="block">
-          <div>
-            <h1>{{ $data.accommodation.title }}</h1>
-            <div class="google-map" style="margin-bottom: 10px">
-              {{ $data.accommodation.googleMap | markdownify}}
-            </div>
-          </div>
           {{ if $data.accommodation.address.enable }}
           {{ range $data.accommodation.AltHotelInformation }}
           <div>
             <h1>{{ $data.accommodation.mainHotelTitle }}</h1>
+            <p>{{ $data.accommodation.text | markdownify }}</p>
             <h3>{{ .title }}</h3>
-            <p style="margin-bottom: 30px">{{ .text | markdownify }}</p>
             <div id="banner" style="overflow: hidden;justify-content:space-around;margin-bottom: 30px">
               <div class="" style="max-width:100%;max-height: 20%;display: inline-block;">{{ .googleMap | markdownify }}</div>
               <div class="" style="max-width: 100%;max-height: 20%;display: inline-block;margin-left: 15px;">
@@ -27,8 +21,9 @@
               <li>{{ .cost1 }}</li>
               <li>{{ .cost2 }}</li>
               <li>{{ .cost3 }}</li>
+              <li>{{ .tax }}</li>
               <li>{{ .telephone }}</li>
-              <li><a href="mailto:{{ .email }}">{{ .email }}</a></li></div>
+              <li><a href="{{ .reservationLink }}">{{ .reservationText }}</a></li></div>
             </div>
             {{ end }}
             {{ end }}
@@ -46,7 +41,8 @@
               <li>{{ .walkingDistance }}</li>
               <li>{{ .cost }}</li>
               <li>{{ .telephone }}</li>
-              <li><a href="mailto:{{ .email }}">{{ .email }}</a></li></div>
+              <li>{{ .tax }}</li>
+              <li><a href="{{ .reservationLink }}">{{ .reservationText }}</a></li></div>
             </div>
             {{ end }}
             {{ end }}
@@ -63,8 +59,9 @@
               <li><a href="{{ .link }}">{{ .textLink }}</a></li>
               <li>{{ .walkingDistance }}</li>
               <li>{{ .cost }}</li>
+              <li>{{ .tax }}</li>
               <li>{{ .telephone }}</li>
-            </div>
+              <li><a href="{{ .reservationLink }}">{{ .reservationText }}</a></li></div>
             </div>
             {{ end }}
             {{ end }}
@@ -72,7 +69,7 @@
           </div>
           {{ if $data.accommodation.address.enable }}
           {{ range $data.accommodation.FairmountHotelInformation }}
-          <div style="margin-bottom: 90px">
+          <div style="margin-bottom: 30px">
             <h3>{{ .title }}</h3>
             <div id="banner" style="overflow: hidden;justify-content:space-around;margin-bottom: 30px">
               <div class="" style="max-width:100%;max-height: 20%;display: inline-block;">{{ .googleMap | markdownify }}</div>
@@ -81,12 +78,19 @@
               <li><a href="{{ .link }}">{{ .textLink }}</a></li>
               <li>{{ .walkingDistance }}</li>
               <li>{{ .cost }}</li>
+              <li>{{ .tax }}</li>
               <li>{{ .telephone }}</li>
-              <li><a href="mailto:{{ .email }}">{{ .email }}</a></li></div>
+              <li><a href="{{ .reservationLink }}">{{ .reservationText }}</a></li></div>
             </div>
             {{ end }}
             {{ end }}
 
+          </div>
+          <div>
+            <h1>{{ $data.accommodation.title }}</h1>
+            <div class="google-map" style="margin-bottom: 90px">
+              {{ $data.accommodation.googleMap | markdownify}}
+            </div>
           </div>
         </div>
       </div>
