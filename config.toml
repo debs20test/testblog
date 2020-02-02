@@ -83,7 +83,7 @@ theme = "debs20test-hugo-theme"
       weight = 6
       name = "Call for Doctoral Symposium"
       parent = "CALLS"
-      url = ""
+      url = "/callfordoctoralsymposium"
 
     [[Languages.en.menu.header]]
     weight = 3
