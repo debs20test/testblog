@@ -23,7 +23,7 @@ submissionGuidelines:
   - title: Submission Guidelines
     text1: "Submissions should be written based on the following structure, which focuses on the key methodological components required for a sound research synthesis:"
     text2: 'Submissions must be no longer than 4 pages and must adhere to the two column ACM conference proceeding style. Templates and examples in LaTeX and various versions of Microsoft Word are available for download from the ACM Master Article Template web pages at <a href="https://www.acm.org/publications/proceedings-template">https://www.acm.org/publications/proceedings-template</a>. Papers must be in PDF (Adobe’s Portable Document Format) format and must be submitted electronically.'
-    text3: "Submissions must be single-author, on the topic of the doctoral work. The name of the supervisor must be clearly marked (« supervised by … ») on the paper, under the author’s name."
+    text3: Submissions must be single-author, on the topic of the doctoral work. The name of the supervisor must be clearly marked ("supervised by …") on the paper, under the author’s name.'
 
 events:
   enable : true
