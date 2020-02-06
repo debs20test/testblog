@@ -30,8 +30,3 @@ addresses:
     you need the Uber application on your Cellphone to get the Uber taxi. For more information about the Airport taxi service and fare price, see the "
     link : "https://www.admtl.com/en/access/taxis-limousines"
     textLink: "Airport Taxi Service Page."
-
-tourism:
-    - title: "Things To Do Around Montreal"
-      text: There are a lot of things and activities which can be done around Montreal. In the map below, You can find some famous places to visit and good restaurants and bars to eat and drink at. For some of them, a brief information can be found on the left side of the map, by clicking on their location.
-      googleMap: '<iframe width="100%" height="480px" src="https://www.google.com/maps/d/embed?mid=1UyX2kxYoQAgy0PclIvZKhovHm7IhStdy&hl=en"></iframe>'
