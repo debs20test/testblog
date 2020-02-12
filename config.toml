@@ -175,7 +175,7 @@ theme = "debs20test-hugo-theme"
       weight = 2
       name = "Camera-Ready Instructions"
       parent = "REGISTRATION"
-      url = ""
+      url = "/camera-ready-instructions"
 
       [[Languages.en.menu.header]]
       weight = 3
