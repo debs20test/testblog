@@ -169,7 +169,7 @@ theme = "debs20test-hugo-theme"
       weight = 1
       name = "Conference Registration"
       parent = "REGISTRATION"
-      url = ""
+      url = "/conference-registration"
 
       [[Languages.en.menu.header]]
       weight = 2
@@ -224,7 +224,7 @@ theme = "debs20test-hugo-theme"
   [Languages.en.params.statement]
     enable = true
     title = "Statement on COVID-19 (Coronavirus)"
-    text = "As of March 5th, we can confirm that the conference proceedings of all tracks for DEBS 2020 will proceed as planned.  All accepted papers for all tracks will be available on the ACM Digital Library in early July 2020. Concerning the physical meeting of the conference, we will monitor closely other conferences, as well as the situation on COVID-19 (coronavirus) and provide regular updates through our various channels (Website, Twitter, Facebook, LinkedIn)."  
+    text = "As of March 5th, we can confirm that the conference proceedings of all tracks for DEBS 2020 will proceed as planned.  All accepted papers for all tracks will be available on the ACM Digital Library in early July 2020. Concerning the physical meeting of the conference, we will monitor closely other conferences, as well as the situation on COVID-19 (coronavirus) and provide regular updates through our various channels (Website, Twitter, Facebook, LinkedIn)."
 
   [Languages.en.params.wrapper]
     enable = true
