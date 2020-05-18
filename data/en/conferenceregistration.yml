@@ -1,23 +1,26 @@
 title: Registration
 texts:
-  - text: "Authors should register their paper at camera ready deadline. Camera ready for all tracks except Poster & Demo is <b>May 28th, 2020</b> and for Poster & Demo, it is <b>June 4th, 2020</b>. If the registration is not received in time, the paper will not be included in the proceedings. It should be one author registration per paper. Everyone can register for free, including additional authors of the same paper."
+  - text: "Authors should register their paper at camera ready deadline. Camera ready for all tracks is <b>June 4th, 2020</b>. If the registration is not received in time, the paper will not be included in the proceedings. It should be one author registration per paper. Everyone else can register for free, including additional authors of the same paper."
   - text: 'To register for the conference, please register <a href="http://www.cvent.com/d/gnqjwq">here</a>.'
-  - text: "<b>Registration Fees</b>"
+  - text: "<b>Registration Fees</b> (Tax are included. No ACM discounts are offered)"
 
 registrationInfo:
   enable : true
 
   registration:
-    - type : Full Paper (Industry paper and main research track are in 12 pages)
+    - type : Full Paper (Industry paper and main research track which are 12 pages)
       fee : "100$"
 
-    - type : Short Paper (Every paper except industry paper and main research track in 6 pages or less)
+    - type : Short Paper (Every other paper, which are 6 pages or less in length)
       fee : "50$"
+
+    - type : Participant (Non author or additional author beyond the first registration)
+      fee : "0$"
 
 include:
   title: What is included in the registration
   texts:
     - text: "Full conference registrations include participation in the main DEBS program."
 cancelation:
-  title: Cancelation Policy
-  text: 'Note that no cancelation and no refunds are possible.'
+  title: Cancellation Policy
+  text: 'Note that no cancellation and no refunds are possible.'
