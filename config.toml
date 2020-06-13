@@ -179,9 +179,15 @@ theme = "debs20test-hugo-theme"
 
       [[Languages.en.menu.header]]
       weight = 3
-      name = "Travel Grants"
+      name = "Video Submission Instructions"
       parent = "REGISTRATION"
-      url = ""
+      url = "/video-submission-instructions"
+
+      [[Languages.en.menu.header]]
+      weight = 3
+      name = "Presentation Instructions"
+      parent = "REGISTRATION"
+      url = "/presentation-instructions"
 
     [[Languages.en.menu.header]]
     weight = 7
