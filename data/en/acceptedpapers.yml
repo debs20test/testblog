@@ -42,11 +42,11 @@ paperInfo:
 
       - Number : "10"
         Title : "RocketBufs: A Framework for Building Efficient, In-Memory, Message-Oriented Middleware"
-        Author : "Huy Hoang:University of Waterloo;Ben Cassell:University of Waterloo;Tim Brecht:University of Waterloo;Samer Al-Kiswany:University of Waterloo"
+        Author : "Huy Hoang (University of Waterloo); Ben Cassell (University of Waterloo); Tim Brecht (University of Waterloo); Samer Al-Kiswany (University of Waterloo)"
 
       - Number : "11"
         Title : "A Survey of Adaptive Sampling and Filtering Algorithms for the Internet of Things"
-        Author : "Dimitrios Giouroukis:Technische Universität Berlin;Alexander Dadiani:Technische Universität Berlin;Jonas Traub:Technische Universität Berlin;Steffen Zeuch:Technische Universität Berlin,DFKI GmbH;Volker Markl:Technische Universität Berlin,DFKI GmbH"
+        Author : "Dimitrios Giouroukis (Technische Universität Berlin); Alexander Dadiani (Technische Universität Berlin); Jonas Traub (Technische Universität Berlin); Steffen Zeuch (Technische Universität Berlin,DFKI GmbH); Volker Markl (Technische Universität Berlin,DFKI GmbH)"
 
 
       - Number : "12"
@@ -70,11 +70,11 @@ paperInfo:
 
       - Number : "3"
         Title : "Industry Paper: TinTiN: Travelling in Time (if Necessary) to deal with out-of-order data in streaming aggregation"
-        Author : "Joris van Rooij:Göteborg Energi;Vincenzo Gulisano:Chalmers University of Technology;Marina Papatriantafilou:Chalmers University of Technology"
+        Author : "Joris van Rooij (Göteborg Energi); Vincenzo Gulisano (Chalmers University of Technology); Marina Papatriantafilou (Chalmers University of Technology)"
 
       - Number : "4"
         Title : "Industry Paper: On the Performance of Commodity Hardware for Low Latency and Low Jitter Packet Processing"
-        Author : "Charalampos Stylianopoulos:Chalmers University of Technology;Magnus Almgren:Chalmers University of Technology;Olaf Landsiedel:Chalmers University of Technology;Marina Papatriantafilou:Chalmers University of Technology;Trevor Neish:Ericsson;Linus Gillander:Ericsson;Bengt Johansson:Ericsson;Staffan Bonnier:Ericsson"
+        Author : "Charalampos Stylianopoulos (Chalmers University of Technology); Magnus Almgren (Chalmers University of Technology); Olaf Landsiedel (Chalmers University of Technology); Marina Papatriantafilou (Chalmers University of Technology); Trevor Neish (Ericsson); Linus Gillander (Ericsson); Bengt Johansson (Ericsson); Staffan Bonnier (Ericsson)"
 
   gc:
     title: Grand Challenge Track
@@ -97,7 +97,7 @@ paperInfo:
 
       - Number : "5"
         Title : "Grand Challenge: Optimized Parallel Implementation of Sequential Clustering-Based Event Detection"
-        Author : "Gengtao Xu:Boston University;Jing Qin:Boston University;Runqi Tian:Boston University"
+        Author : "Gengtao Xu (Boston University); Jing Qin (Boston University); Runqi Tian (Boston University)"
 
       - Number : "6"
         Title : "The DEBS 2020 Grand Challenge"
@@ -112,7 +112,7 @@ paperInfo:
 
       - Number : "2"
         Title : "Tutorial: Blockchain Consensus Unraveled: Virtues and Limitations"
-        Author : "Suyash Gupta:University of California, Davis;Jelle Hellings:University of California, Davis;Sajjad Rahnama:University of California, Davis;Mohammad Sadoghi:University of California, Davis"
+        Author : "Suyash Gupta (University of California, Davis); Jelle Hellings (University of California, Davis); Sajjad Rahnama (University of California, Davis); Mohammad Sadoghi (University of California, Davis)"
 
   DS:
     title: Doctoral Symposium Track
@@ -127,4 +127,4 @@ paperInfo:
 
       - Number : "3"
         Title : "Dynamic Scaling of Distributed Data-flows under Uncertainty - Reflections of a financial analyst on the application of finance principles to Systems research."
-        Author : "Stuart Jamieson,Matthew Forshaw"
+        Author : "Stuart Jamieson; Matthew Forshaw"

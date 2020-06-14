@@ -1,5 +1,5 @@
 +++
-title = "PERESENTATION INSTRUCTIONS"
+title = "PRESENTATION INSTRUCTIONS"
 id = "presentation-instructions"
 aliases = [
     "presentation-instructions",
