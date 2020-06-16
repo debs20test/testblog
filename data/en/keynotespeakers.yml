@@ -3,14 +3,14 @@ title: Keynotes
 keynotes:
   fields:
     - Speaker : "<b>Tamer Özsu</b><br>University of Waterloo"
-      Title : "STREAMING GRAPH PROCESSING AND ANALYTICS"
+      Title : "Streaming Graph Processing and Analytics"
       Info : "<a href=#Tamer-Özsu><img src=/img/infoImg.png width=50% margin-top=30px></a>"
 
 speaker1:
   img: '<img src=/img/speakers/speaker1.jpg width=100% height=auto">'
   name: "<b>Tamer Özsu</b>"
   university: "<b>University of Waterloo</b>"
-  title: "<b>Keynote Title: Streaming graph processing and analytics</b>"
+  title: "<b>Keynote Title: Streaming Graph Processing and Analytics</b>"
   absTitle: "<b>Abstract</b>"
   bioTitle: "<b>Biography</b>"
   abstract: "Graphs are now ubiquitous as many applications emerge where the relationships among entities are paramount and require being modeled as first-class objects.  Graph database systems empower such applications by enabling querying and processing both the data stored on the graph and its topology, and they have gained significant attention both in industry and academia. The graphs used in many modern applications are not static and not fully available for analysis; rather the graph vertices and edges are streamed, and the graph “emerges” over time. These are called streaming graphs. Processing and analyzing streaming graphs are challenging, because the difficulties of streaming combine with the complexities of graph processing. In this talk, I have two objectives. First is the introduction and positioning of the problem and the environment. The second is to highlight some of our recent work in this area within the context of s-Graffito project."

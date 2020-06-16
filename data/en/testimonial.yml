@@ -1,7 +1,4 @@
-enable: false
-title: Fun Facts About Us
-paragraph: >
-  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
+enable: true
 
 number:
   enable : false
@@ -20,35 +17,38 @@ numbers:
     text: Cups of Coffee
 
 peoples:
-  enable : false
+  enable : true
 people:
   - text: >
-      Write Something Here1
-    quoteImg: img/cotation.png
-    image: img/item-img1.jpg
-    name: Person 1
-    role: Professor
+      KEYNOTE
+    image: img/speakers/speaker1.jpg
+    name: Tamer Özsu
+    university: University of Waterloo
+    title: "Title: Streaming Graph Processing and Analytics"
   - text: >
-      Write Something Here2
-    quoteImg: img/cotation.png
-    image: img/item-img1.jpg
-    name: Person 2
-    role: CEO
+      KEYNOTE
+    image: img/speakers/speaker1.jpg
+    name: Tamer Özsu
+    university: University of Waterloo
+    title: "Title: Streaming Graph Processing and Analytics"
+
   - text: >
-      Write Something Here3
-    quoteImg: img/cotation.png
-    image: img/item-img1.jpg
-    name: Person 3
-    role: Web designer
+      KEYNOTE
+    image: img/speakers/speaker1.jpg
+    name: Tamer Özsu
+    university: University of Waterloo
+    title: "Title: Streaming Graph Processing and Analytics"
+
   - text: >
-      Write Something Here4
-    quoteImg: img/cotation.png
-    image: img/item-img1.jpg
-    name: Person 4
-    role: Manager
+      KEYNOTE
+    image: img/speakers/speaker1.jpg
+    name: Tamer Özsu
+    university: University of Waterloo
+    title: "Title: Streaming Graph Processing and Analytics"
+
   - text: >
-      Write Something Here5
-    quoteImg: img/cotation.png
-    image: img/item-img1.jpg
-    name: Person 5
-    role: Programmer
+      KEYNOTE
+    image: img/speakers/speaker1.jpg
+    name: Tamer Özsu
+    university: University of Waterloo
+    title: "Title: Streaming Graph Processing and Analytics"

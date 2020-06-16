@@ -38,11 +38,10 @@
           <div id="testimonial-slider" class="owl-carousel">
             {{ range $data.testimonial.people }}
             <div>
-                <img src="{{.quoteImg | absURL }}" alt="IMG">
-                <p>"{{ .text }}"</p>
+                <p>{{ .text }}</p>
                 <div class="user">
-                  <img src="{{ $.Site.BaseURL }}{{ .image }}" alt="Pepole">
-                  <p><span>{{ .name }}</span> {{ .role }}</p>
+                  <a href="/keynote-speakers/#Tamer-Özsu"><img src="{{ $.Site.BaseURL }}{{ .image }}" width="20%" alt="Pepole"></a>
+                  <p><span>{{ .name }}</span> <uni>{{ .university }}</uni> <tit>{{ .title }}</tit></p>
                 </div>
             </div>
             {{ end }}
