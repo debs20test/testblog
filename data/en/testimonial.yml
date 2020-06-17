@@ -25,30 +25,9 @@ people:
     name: Tamer Özsu
     university: University of Waterloo
     title: "Title: Streaming Graph Processing and Analytics"
-  - text: >
-      KEYNOTE
-    image: img/speakers/speaker1.jpg
-    name: Tamer Özsu
-    university: University of Waterloo
-    title: "Title: Streaming Graph Processing and Analytics"
-
-  - text: >
-      KEYNOTE
-    image: img/speakers/speaker1.jpg
-    name: Tamer Özsu
-    university: University of Waterloo
-    title: "Title: Streaming Graph Processing and Analytics"
-
-  - text: >
-      KEYNOTE
-    image: img/speakers/speaker1.jpg
-    name: Tamer Özsu
-    university: University of Waterloo
-    title: "Title: Streaming Graph Processing and Analytics"
-
-  - text: >
-      KEYNOTE
-    image: img/speakers/speaker1.jpg
-    name: Tamer Özsu
-    university: University of Waterloo
-    title: "Title: Streaming Graph Processing and Analytics"
+  # - text: >
+  #     KEYNOTE
+  #   image: img/speakers/speaker1.jpg
+  #   name: Tamer Özsu
+  #   university: University of Waterloo
+  #   title: "Title: Streaming Graph Processing and Analytics"

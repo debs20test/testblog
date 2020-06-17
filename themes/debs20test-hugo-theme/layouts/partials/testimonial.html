@@ -33,7 +33,10 @@
       </div>
       {{ end }}
       {{ if $data.testimonial.peoples.enable }}
-      <div class="col-md-12">
+      <div class="col-md-9">
+        <div class="section-title" style="margin-bottom: 30px;">
+          <h2>KEYNOTE SPEAKERS</h2>
+        </div>
         <div class="testimonial-carousel">
           <div id="testimonial-slider" class="owl-carousel">
             {{ range $data.testimonial.people }}
@@ -41,7 +44,7 @@
                 <p>{{ .text }}</p>
                 <div class="user">
                   <a href="/keynote-speakers/#Tamer-Özsu"><img src="{{ $.Site.BaseURL }}{{ .image }}" width="20%" alt="Pepole"></a>
-                  <p><span>{{ .name }}</span> <uni>{{ .university }}</uni> <tit>{{ .title }}</tit></p>
+                  <p><span>{{ .name }}</span> <uni>{{ .university }}</uni> <tit><a href="/keynote-speakers/#Tamer-Özsu">{{ .title }}</a></tit></p>
                 </div>
             </div>
             {{ end }}
