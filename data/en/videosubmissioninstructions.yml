@@ -4,7 +4,7 @@ content:
   - text: "Sign in to <a href=https://www.youtube.com/>YouTube</a>."
   - text: "At the top right corner, select the Create video or more button -> Upload Video as shown in the following figure: <img src=/img/youtube.png width=100% margin-top=30px>"
   - text: "Select the video file you would like to upload."
-  - text: "While your video is being processed, click on “Details” of the video to fill in information. Your video title should be in the following format: <b>TITLE (ACM DEBS 2020)</b>. Note that the title should contain the <b>prefix</b> according to the <a href=https://2020.debs.org/camera-ready-instructions/>camera-ready instructions</a>."
+  - text: "While your video is being processed, click on “Details” of the video to fill in information. Your video title should be in the following format: <b>TITLE (ACM DEBS 2020)</b>. Note that the title should contain the <b>prefix</b> according to the <a href=/camera-ready-instructions/>camera-ready instructions</a>."
   - text: "In the description section, please include the track (Research, Industry, Grand Challenge, …), paper ID (which can be found from HotCRP) and the names of the authors."
   - text: "Under visibility, please select “Unlisted” or “Public”. The difference is that an unlisted video will be indexed by the YouTube search engine. Click <b>“Save”</b> once done."
   - text: "You can optionally go to the “Subtitles” section to manually enter subtitles for your video, which will be displayed during the live broadcast. <b>Please ensure the subtitles are accurate</b>."

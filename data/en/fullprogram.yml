@@ -1,0 +1,75 @@
+events:
+  enable : true
+  title : Full Program
+
+  eventsList:
+
+    - time : "8:30"
+      event1 :
+      event2 : Conference
+      event3 : Conference
+      event4 : Conference
+      event5 : Conference
+
+    - time : "9:00"
+      event1 : Tutorial 1a (Streaming)
+      event2 : Conference
+      event3 : Conference
+      event4 : Conference
+      event5 : Conference
+
+    - time : "10:00"
+      event1 : Discussion break
+      event2 : Conference
+      event3 : Conference
+      event4 : Conference
+      event5 : Conference
+
+    - time : "10:15"
+      event1 : Tutorial 1a (Streaming)
+      event2 : Conference
+      event3 : Conference
+      event4 : Conference
+      event5 : Conference
+
+    - time : "10:30"
+      event1 : Tutorial 1a (Streaming)
+      event2 : Conference
+      event3 : Conference
+      event4 : Conference
+      event5 : Conference
+
+    - time : "10:45"
+      event1 : Tutorial 1a (Streaming)
+      event2 : Conference
+      event3 : Conference
+      event4 : Conference
+      event5 : Conference
+
+    - time : "11:40"
+      event1 : Tutorial 1a (Streaming)
+      event2 : Conference
+      event3 : Conference
+      event4 : Conference
+      event5 : Conference
+
+    - time : "13:00"
+      event1 : Tutorial 1a (Streaming)
+      event2 : Conference
+      event3 : Conference
+      event4 : Conference
+      event5 : Conference
+
+    - time : "14:10"
+      event1 : Tutorial 1a (Streaming)
+      event2 : Conference
+      event3 : Conference
+      event4 : Conference
+      event5 : Conference
+
+    - time : "14:30"
+      event1 : Tutorial 1a (Streaming)
+      event2 : Conference
+      event3 : Conference
+      event4 : Conference
+      event5 : Conference
