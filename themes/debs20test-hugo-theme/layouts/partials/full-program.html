@@ -7,7 +7,16 @@
       <div class="col-md-9 col-sm-6">
         <div class="block">
           <div>
-            <h2>{{ $data.fullprogram.events.title }}</h2>
+            <div style="margin-bottom: 30px;">
+              <h2>Full Program</h2>
+              <p>Select the timezone:</p>
+              <button id="EST" type="button">
+                EST
+              </button>
+              <button id="CET" type="button">
+                CET
+              </button>
+            </div>
             <table class="table table-bordered table-hover text-center">
               <thead class="bg-gray">
                 <tr>
@@ -21,7 +30,7 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>8:30</td>
+                  <td id="time1">8:30</td>
                   <td></td>
                   <td rowspan="2">Doctoral Symp.</td>
                   <td></td>
@@ -29,38 +38,38 @@
                   <td></td>
                 </tr>
                 <tr>
-                  <td>9:00</td>
+                  <td id="time2">9:00</td>
                   <td>Tutorial 1a (Streaming)</td>
                   <td rowspan="2">Intro (15 mins), Keynote 1 (Tamer)</td>
                   <td>Keynote2 (Joelle)</td>
                   <td>Test-of-time R+I Session4 2x</td>
                 </tr>
                 <tr>
-                  <td>10:00</td>
+                  <td id="time3">10:00</td>
                   <td rowspan="2">Discussion break</td>
                   <td rowspan="2">Discussion break</td>
                   <td rowspan="2">Discussion break</td>
                   <td rowspan="2">Discussion break</td>
                 </tr>
                 <tr>
-                  <td>10:15</td>
+                  <td id="time4">10:15</td>
                   <td rowspan="2">Discussion break</td>
 
                 </tr>
                 <tr>
-                  <td>10:30</td>
+                  <td id="time5">10:30</td>
                   <td rowspan="2">Tutorial 1b (Streaming)</td>
                   <td rowspan="2">Tutorial 2a (Blockchain)</td>
                   <td rowspan="2">R+I Session 3, 3x FP 1x SP</td>
                   <td rowspan="2">R+I Session 5, 3x FP 1x SP</td>
                 </tr>
                 <tr>
-                  <td>10:45</td>
+                  <td id="time6">10:45</td>
                   <td>R+I Session 1, 3x FP (best paper here)</td>
 
                 </tr>
                 <tr>
-                  <td>11:40</td>
+                  <td id="time7">11:40</td>
                   <td>Discussion break</td>
                   <td>Discussion break</td>
                   <td>Discussion break</td>
@@ -68,7 +77,7 @@
                   <td>Discussion break</td>
                 </tr>
                 <tr>
-                  <td>13:00</td>
+                  <td id="time8">13:00</td>
                   <td></td>
                   <td>Tutorial 2b (Blockchain)</td>
                   <td>R+I Session 2, 3x FP 1x SP</td>
@@ -76,13 +85,13 @@
                   <td rowspan="2">Business Meeting Closing</td>
                 </tr>
                 <tr>
-                  <td>14:10</td>
+                  <td id="time9">14:10</td>
                   <td></td>
                   <td></td>
                   <td></td>
                 </tr>
                 <tr>
-                  <td>14:30</td>
+                  <td id="time10">14:30</td>
                   <td></td>
                   <td></td>
                   <td></td>
@@ -98,3 +107,33 @@
     </div>
   </div>
 </section>
+<script type="text/javascript">
+  function ESTTime()
+  {
+    document.getElementById("time1").innerHTML = "8:30";
+    document.getElementById("time2").innerHTML = "9:00";
+    document.getElementById("time3").innerHTML = "10:00";
+    document.getElementById("time4").innerHTML = "10:15";
+    document.getElementById("time5").innerHTML = "10:30";
+    document.getElementById("time6").innerHTML = "10:45";
+    document.getElementById("time7").innerHTML = "11:40";
+    document.getElementById("time8").innerHTML = "13:00";
+    document.getElementById("time9").innerHTML = "14:10";
+    document.getElementById("time10").innerHTML = "14:30";
+  }
+  function CETTime()
+  {
+    document.getElementById("time1").innerHTML = "14:30";
+    document.getElementById("time2").innerHTML = "15:00";
+    document.getElementById("time3").innerHTML = "16:00";
+    document.getElementById("time4").innerHTML = "16:15";
+    document.getElementById("time5").innerHTML = "16:30";
+    document.getElementById("time6").innerHTML = "16:45";
+    document.getElementById("time7").innerHTML = "17:40";
+    document.getElementById("time8").innerHTML = "19:00";
+    document.getElementById("time9").innerHTML = "20:10";
+    document.getElementById("time10").innerHTML = "20:30";
+  }
+  document.getElementById("EST").onclick = ESTTime;
+  document.getElementById("CET").onclick = CETTime;
+</script>
