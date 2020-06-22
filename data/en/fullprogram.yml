@@ -1,0 +1,63 @@
+title: Session Details
+
+keynote1:
+  title: "Keynote #1"
+  texts:
+    - text: "Streaming Graph Processing and Analytics<br>Tamer Özsu (University of Waterloo)"
+
+research1:
+  title: "Research #1: Events"
+  texts:
+    - text: "DeepMatch: Deep Matching for In-Vehicle Presence Detection in Transportation<br>Magnus Oplenskedal (Norwegian University of Science and Technology); Amir Taherkordi (University of Oslo); Peter Herrmann (Norwegian University of Science and Technology)"
+    - text: "hSPICE: State--Aware Event Shedding in Complex Event Processing<br>Ahmad Slo, Sukanya Bhowmik, Kurt Rothermel (University of Stuttgart)"
+    - text: "The Kaiju Project: Enabling Event-Driven Observability<br>Mario Scrocca (Politecnico di Milano); Riccardo Tommasini (University of Tartu); Alessandro Margara, Emanuele Della Valle (Politecnico di Milano); Sherif Sakr (University of Tartu)"
+
+research2:
+  title: "Research #2: Dependability"
+  texts:
+    - text: "Leaving Stragglers at the Window: Low-Latency Stream Sampling with Accuracy Guarantees<br>Omar Farhat, Harsh Bindra, Khuzaima Daudjee (University of Waterloo)"
+    - text: "ByzGame: Byzantine Generals Game<br>James Clavin, Pradeep M. Prakash Sisi Duan (University of Maryland, Baltimore County)"
+    - text: "On the Tracking of Sensitive Data and Confidential Executions<br>José Roberto Nascimento Júnior, José B. S. Nunes, Eduardo Lucena Falcão, Lilia Sampaio, Andrey Brito (Federal University of Campina Grande (UFCG))"
+    - text: "Mechanisms for Outsourcing Computation via a Decentralized Market<br>Scott Eisele (Vanderbilt University); Taha Eghtesad, Nicholas Troutman, Aron Laszka (University of Houston); Abhishek Dubey (Vanderbilt University)"
+
+keynote2:
+  title: "Keynote #2"
+  texts:
+    - text: "TBA<br>Joelle Pineau (Facebook AI Research, McGill University)"
+
+industry:
+  title: "Industry"
+  texts:
+    - text: "TinTiN: Travelling in Time (if Necessary) to deal with out-of-order data in streaming aggregation<br>Joris van Rooij (Göteborg Energi); Vincenzo Gulisano, Marina Papatriantafilou (Chalmers University of Technology)"
+    - text: "On the Performance of Commodity Hardware for Low Latency and Low Jitter Packet Processing<br>Charalampos Stylianopoulos, Magnus Almgren, Olaf Landsiedel, Marina Papatriantafilou (Chalmers University of Technology); Trevor Neish, Linus Gillander, Bengt Johansson, Staffan Bonnier (Ericsson)"
+    - text: "Classification of vessel activity in streaming data<br>Ioannis Kontopoulos (Harokopio University of Athens); Konstantinos Chatzikokolakis (MarineTraffic); Konstantinos Tserpes (Harokopio University of Athens); Dimitris Zissis (MarineTraffic)"
+    - text: "Managing Geo-Distributed Stream Processing Pipelines for the IIoT with StreamPipes Edge Extensions<br>Patrick Wiener, Philipp Zehnder, Dominik Riemer (FZI Research Center for Information Technology)"
+
+GC:
+  title: "Grand Challenge"
+  texts:
+    - text: "The DEBS 2020 Grand Challenge<br>Vincenzo Gulisano (Chalmers University of Technology, Sweden); Daniel Jorde, Ruben Mayer (Technical University of Munich, Germany); Hannaneh Najdataei, Dimitris Palyvos-Giannas (Chalmers University of Technology, Sweden)"
+    - text: "Incremental Stream Query Analytics<br>Pedro Silva, Wang Yue, Tilmann Rabl (Hasso Plattner Institute, University of Potsdam)"
+    - text: "Real-time Detection of Smart Meter Events with Odysseus<br>Michael Brand (University of Oldenburg); Tobias Brandt (OFFIS); Marco Grawunder (University of Oldenburg)"
+    - text: "Anomaly Detection for NILM task with Apache Flink<br>Zongshun Zhang, Ethan Go (Boston University)"
+    - text: "Using Streaming Data and Apache Flink to Infer Energy Consumption<br>Michael Hendrick, Manuja DeSilva (Boston University)"
+    - text: "Optimized Parallel Implementation of Sequential Clustering-Based Event Detection<br>Gengtao Xu, Jing Qin, Runqi Tian (Boston University)"
+
+test:
+  title: "Test of Time"
+  texts:
+    - text: "TBA"
+
+research3:
+  title: "Research #3: Serverless"
+  texts:
+    - text: "Triggerflow: Trigger-based Orchestration of Serverless Workflows<br>Pedro Garcia Lopez (IBM Watson Research); Aitor Arjona, Josep Sampe (Universitat Rovira i Virgili); Aleksander Slominski, Lionel Villard (IBM Watson Research)"
+    - text: "FaasDom: A Benchmark Suite for Serverless Computing<br>Pascal Maissen (University of Fribourg, Switzerland); Pascal Felber, Peter Kropf, Valerio Schiavoni (University of Neuchatel, Switzerland)"
+
+research4:
+  title: "Research #4: Streams and IoT"
+  texts:
+    - text: "EdgeScaler: Effective Elastic Scaling for Graph Stream Processing Systems<br>Daniel Presser, Frank Siqueira (Universidade Federal de Santa Catarina); Luis Rodrigues (INESC-ID, IST, ULisboa); Paolo Romano (IST/INESC-ID)"
+    - text: "RocketBufs: A Framework for Building Efficient, In-Memory, Message-Oriented Middleware<br>Huy Hoang, Ben Cassell, Tim Brecht, Samer Al-Kiswany (University of Waterloo)"
+    - text: "A Survey of Adaptive Sampling and Filtering Algorithms for the Internet of Things<br>Dimitrios Giouroukis, Alexander Dadiani, Jonas Traub, Steffen Zeuch, Volker Markl (Technische Universität Berlin)"
+    - text: "Hermes: Enabling Energy-efficient IoT Networks with Generalized Deduplication<br>Christian Göttel (University of Neuchatel, Switzerland); Lars Nielsen, Niloofar Yazdani (Aarhus University); Pascal Felber (University of Neuchatel, Switzerland); Daniel E. Lucani (Aarhus University); Valerio Schiavoni (University of Neuchatel, Switzerland)"

@@ -43,8 +43,8 @@
             <div>
                 <p>{{ .text }}</p>
                 <div class="user">
-                  <a href="/keynote-speakers/#Tamer-Özsu"><img src="{{ $.Site.BaseURL }}{{ .image }}" width="20%" alt="Pepole"></a>
-                  <p><span>{{ .name }}</span> <uni>{{ .university }}</uni> <tit><a href="/keynote-speakers/#Tamer-Özsu">{{ .title }}</a></tit></p>
+                  <a href="{{ .linkTo }}"><img src="{{ $.Site.BaseURL }}{{ .image }}" width="20%" alt="Pepole"></a>
+                  <p><span>{{ .name }}</span> <uni>{{ .university }}</uni> <tit><a href="{{ .linkTo }}">{{ .title }}</a></tit></p>
                 </div>
             </div>
             {{ end }}

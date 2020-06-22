@@ -28,8 +28,8 @@
             </table>
             <hr>
           </div>
-          <div id="Tamer-Özsu" style="margin-bottom: 150px; margin-top: 50px;">
-            <div class="">
+          <div id="Tamer-Özsu" style="margin-top: 50px;">
+            <div>
               <div class="col-md-3 mb-10">
                 {{ $data.keynotespeakers.speaker1.img | markdownify }}
               </div>
@@ -41,11 +41,32 @@
                 <p style="font-size:18px;">{{ $data.keynotespeakers.speaker1.title | markdownify }}</p>
               </div>
             </div>
-            <div class="col-md-12">
+            <div style="margin-bottom:50px;" class="col-md-12">
               <p>{{ $data.keynotespeakers.speaker1.absTitle | markdownify }}</p>
               <p align = "justify">{{ $data.keynotespeakers.speaker1.abstract | markdownify }}</p>
               <p>{{ $data.keynotespeakers.speaker1.bioTitle | markdownify }}</p>
               <p align = "justify">{{ $data.keynotespeakers.speaker1.bio | markdownify }}</p>
+              <hr>
+              </div>
+          </div>
+          <div>
+            <div>
+              <div id="Joelle-Pineau" class="col-md-3 mb-10">
+                {{ $data.keynotespeakers.speaker2.img | markdownify }}
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="mb-10">
+                <p style="color: #655E7A; font-size:30px;">{{ $data.keynotespeakers.speaker2.name | markdownify }}</p>
+                <p style="font-size:20px;">{{ $data.keynotespeakers.speaker2.university | markdownify }}</p>
+                <p style="font-size:18px;">{{ $data.keynotespeakers.speaker2.title | markdownify }}</p>
+              </div>
+            </div>
+            <div style="margin-bottom:150px;" class="col-md-12">
+              <p>{{ $data.keynotespeakers.speaker2.absTitle | markdownify }}</p>
+              <p align = "justify">{{ $data.keynotespeakers.speaker2.abstract | markdownify }}</p>
+              <p>{{ $data.keynotespeakers.speaker2.bioTitle | markdownify }}</p>
+              <p align = "justify">{{ $data.keynotespeakers.speaker2.bio | markdownify }}</p>
               <hr>
               </div>
           </div>
