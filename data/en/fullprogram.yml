@@ -1,5 +1,22 @@
 title: Session Details
 
+tutorial1:
+  title: "Tutorial #1"
+  texts:
+    - text: "The Role of Event-Time Analysis Order in Data Streaming<br>Vincenzo Gulisano (Chalmers University of Technology); Bastian Havers (Chalmers University of Technology & Volvo Cars); Dimitrios Palyvos-Giannas, Marina Papatriantafilou (Chalmers University of Technology)"
+
+DS:
+  title: "Doctoral Symposium"
+  texts:
+    - text: "Quantitative Performance-Reliability Trade-off Analysis of Thermal-Constrained Scheduling Strategies in Multi-Core Systems<br>Muhammad Usama Sardar (Technische Universität Dresden)"
+    - text: "Pre-processing and Data Validation in IoT Data Streams<br>Philsy Baban (TU Ilmenau)"
+    - text: "Dynamic Scaling of Distributed Data-flows under Uncertainty - Reflections of a financial analyst on the application of finance principles to Systems research<br>Stuart Jamieson (Newcastle University, UK)"
+
+tutorial2:
+  title: "Tutorial #2"
+  texts:
+    - text: "Blockchain Consensus Unraveled: Virtues and Limitations<br>Suyash Gupta (University of California, Davis); Jelle Hellings (University of California, Davis); Sajjad Rahnama (University of California, Davis); Mohammad Sadoghi (University of California, Davis)"
+
 keynote1:
   title: "Keynote #1"
   texts:
@@ -23,7 +40,7 @@ research2:
 keynote2:
   title: "Keynote #2"
   texts:
-    - text: "TBA<br>Joelle Pineau (Facebook AI Research, McGill University)"
+    - text: "Building Reproducible, Reusable, and Robust Machine Learning Software<br>Joelle Pineau (Facebook AI Research, McGill University)"
 
 industry:
   title: "Industry"

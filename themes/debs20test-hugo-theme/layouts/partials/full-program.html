@@ -35,17 +35,17 @@
                   <tr>
                     <td id="time1"></td>
                     <td style="height:70px; background-color: #655E7A"></td>
-                    <td rowspan="2">Doctoral Symposium</td>
+                    <td rowspan="2"><a href="#doctoral-symposium">Doctoral Symposium</a></td>
                     <td style="background-color: #655E7A;"></td>
                     <td style="background-color: #655E7A;"></td>
                     <td style="background-color: #655E7A;"></td>
                   </tr>
                   <tr>
                     <td id="time2" style="height:100px;"></td>
-                    <td>Tutorial 1a (Streaming)</td>
-                    <td rowspan="2">Intro (15 mins), Keynote 1 (Tamer Özsu)</td>
-                    <td>Keynote2 (Joelle Pineau)</td>
-                    <td>Test-of-Time, Research Session 3 (Serverless)</td>
+                    <td><a href="#tutorial1">Tutorial 1a (Streaming)</a></td>
+                    <td rowspan="2"><a href="#keynote1">Opening Speech, Keynote 1 (Tamer Özsu)</a></td>
+                    <td><a href="#keynote2">Keynote 2 (Joelle Pineau)</a></td>
+                    <td><a href="#research3">Test-of-Time, Research Session 3 (Serverless)</a></td>
                   </tr>
                   <tr>
                     <td id="time3"></td>
@@ -61,14 +61,14 @@
                   </tr>
                   <tr>
                     <td id="time5"></td>
-                    <td rowspan="2">Tutorial 1b (Streaming)</td>
-                    <td rowspan="2">Tutorial 2a (Blockchain)</td>
-                    <td rowspan="2">Industry Session</td>
-                    <td rowspan="2">Research Session 4 (Streams and IoT)</td>
+                    <td rowspan="2"><a href="#tutorial1">Tutorial 1b (Streaming)</a></td>
+                    <td rowspan="2"><a href="#tutorial2">Tutorial 2a (Blockchain)</a></td>
+                    <td rowspan="2"><a href="#industry">Industry Session</a></td>
+                    <td rowspan="2"><a href="#research4">Research Session 4 (Streams and IoT)</a></td>
                   </tr>
                   <tr>
                     <td id="time6" style="height:90px;"></td>
-                    <td>Research Session 1 (Events)</td>
+                    <td><a href="#research1">Research Session 1 (Events)</td>
 
                   </tr>
                   <tr>
@@ -82,10 +82,10 @@
                   <tr>
                     <td id="time8" style="height:120px;"></td>
                     <td style="background-color: #655E7A;"></td>
-                    <td>Tutorial 2b (Blockchain)</td>
-                    <td>Research Session 2(Dependability)</td>
-                    <td rowspan="2">Grand Challenge</td>
-                    <td>Business Meeting Closing</td>
+                    <td><a href="#tutorial2">Tutorial 2b (Blockchain)</a></td>
+                    <td><a href="#research2">Research Session 2 (Dependability)</a></td>
+                    <td rowspan="2"><a href="#grand-challenge-solutions">Grand Challenge</td>
+                    <td>Business Meeting Closing Remarks</td>
                   </tr>
                   <tr>
                     <td id="time9"></td>
@@ -105,8 +105,38 @@
                 </tbody>
               </table>
             </div>
-            <div class="">
+            <div>
               <h1>{{ $data.fullprogram.title }}</h1>
+            </div>
+            <div id="tutorial1">
+
+            </div>
+            <div>
+              <h3>{{ $data.fullprogram.tutorial1.title }}</h3>
+              {{ range $data.fullprogram.tutorial1.texts }}
+              <p align="justify">{{ .text | markdownify }}</p>
+              {{ end }}
+            </div>
+            <div id="doctoral-symposium">
+
+            </div>
+            <div>
+              <h3>{{ $data.fullprogram.DS.title }}</h3>
+              {{ range $data.fullprogram.DS.texts }}
+              <p align="justify">{{ .text | markdownify }}</p>
+              {{ end }}
+            </div>
+            <div id="tutorial2">
+
+            </div>
+            <div>
+              <h3>{{ $data.fullprogram.tutorial2.title }}</h3>
+              {{ range $data.fullprogram.tutorial2.texts }}
+              <p align="justify">{{ .text | markdownify }}</p>
+              {{ end }}
+            </div>
+            <div id="keynote1">
+
             </div>
             <div>
               <h3>{{ $data.fullprogram.keynote1.title }}</h3>
@@ -114,11 +144,17 @@
               <p align="justify">{{ .text | markdownify }}</p>
               {{ end }}
             </div>
+            <div id="research1">
+
+            </div>
             <div>
               <h3>{{ $data.fullprogram.research1.title }}</h3>
               {{ range $data.fullprogram.research1.texts }}
               <p align="justify">{{ .text | markdownify }}</p>
               {{ end }}
+            </div>
+            <div id="research2">
+
             </div>
             <div>
               <h3>{{ $data.fullprogram.research2.title }}</h3>
@@ -126,11 +162,17 @@
               <p align="justify">{{ .text | markdownify }}</p>
               {{ end }}
             </div>
+            <div id="keynote2">
+
+            </div>
             <div>
               <h3>{{ $data.fullprogram.keynote2.title }}</h3>
               {{ range $data.fullprogram.keynote2.texts }}
               <p align="justify">{{ .text | markdownify }}</p>
               {{ end }}
+            </div>
+            <div id="industry">
+
             </div>
             <div>
               <h3>{{ $data.fullprogram.industry.title }}</h3>
@@ -138,11 +180,17 @@
               <p align="justify">{{ .text | markdownify }}</p>
               {{ end }}
             </div>
+            <div id="grand-challenge-solutions">
+
+            </div>
             <div>
               <h3>{{ $data.fullprogram.GC.title }}</h3>
               {{ range $data.fullprogram.GC.texts }}
               <p align="justify">{{ .text | markdownify }}</p>
               {{ end }}
+            </div>
+            <div id="test">
+
             </div>
             <div>
               <h3>{{ $data.fullprogram.test.title }}</h3>
@@ -150,11 +198,17 @@
               <p align="justify">{{ .text | markdownify }}</p>
               {{ end }}
             </div>
+            <div id="research3">
+
+            </div>
             <div>
               <h3>{{ $data.fullprogram.research3.title }}</h3>
               {{ range $data.fullprogram.research3.texts }}
               <p align="justify">{{ .text | markdownify }}</p>
               {{ end }}
+            </div>
+            <div id="research4">
+
             </div>
             <div style="margin-bottom:150px;">
               <h3>{{ $data.fullprogram.research4.title }}</h3>
