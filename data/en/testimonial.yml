@@ -23,13 +23,13 @@ people:
       KEYNOTE
     image: img/speakers/speaker1.jpg
     name: Tamer Özsu
-    linkTo: keynote-speakers/#Tamer-Özsu
+    linkTo: keynote-speakers/#Tamer
     university: University of Waterloo
     title: "Title: Streaming Graph Processing and Analytics"
   - text: >
       KEYNOTE
     image: img/speakers/speaker2.jpg
     name: Joelle Pineau
-    linkTo: keynote-speakers/#Joelle-Pineau
+    linkTo: keynote-speakers/#Joelle
     university: McGill University
     title: "Building Reproducible, Reusable, and Robust Machine Learning Software"
